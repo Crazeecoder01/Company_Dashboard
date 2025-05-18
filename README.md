@@ -92,6 +92,26 @@ frontend-intern/
 
 ---
 
+## This project is deployed using Vercel for fast and reliable hosting.
+
+### 🔁 Fix for 404 Error on Page Reloads
+
+When using client-side routing (e.g., React Router), you might encounter a 404 error on page reloads (e.g., `/dashboard`). This happens because the hosting platform (e.g., Vercel) looks for a static file at the requested route, which doesn't exist.
+
+#### ✅ Solution:
+
+To resolve this issue, create a `vercel.json` file in the root of your project with the following content:
+
+```json
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
+```
+
+This configuration ensures that all routes are redirected to the root `index.html`, allowing React Router to handle the routing.
+
 ## 📜 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
