@@ -1,0 +1,60 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    
+    {
+      "id": 4,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": 6,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
+      "id": 7,
+      "name": "John Doe",
+      "email": "  ",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 8,
+      "name": "Jane Smith",
+      "email": "",
+      "role": "Editor",
+      "status": "Inactive"
+    }
+  ]
+  
